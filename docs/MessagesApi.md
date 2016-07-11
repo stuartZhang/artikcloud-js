@@ -329,7 +329,13 @@ Name | Type | Description  | Notes
 
 Send Message Action
 
-Send a message or an Action:&lt;br/&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Combination&lt;/th&gt;&lt;th&gt;Parameters&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Send Message&lt;/td&gt;&lt;td&gt;sdid, type=message&lt;/td&gt;&lt;td&gt;Send a message from a Source Device&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Send Action&lt;/td&gt;&lt;td&gt;ddid, type=action&lt;/td&gt;&lt;td&gt;Send an action to a Destination Device&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Common&lt;/td&gt;&lt;td&gt;data, ts, token&lt;/td&gt;&lt;td&gt;Parameters that can be used with the above combinations.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+Send a message or an Action:
+
+Combination | Parameters | Description
+------------- | ------------- | ------------- 
+Send Message | sdid, type=message | Send a message from a Source Device
+Send Action | ddid, type=action | Send an action to a Destination Device
+Common | data, ts, token | Parameters that can be used with the above combinations.
 
 ### Example
 ```javascript
